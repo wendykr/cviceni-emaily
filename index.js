@@ -49,4 +49,3 @@ fetch('https://apps.kodim.cz/daweb/trening-api/apis/emails?folder=unread')
     .then((data) => {
         renderUnread(data.emails);
     })
-
